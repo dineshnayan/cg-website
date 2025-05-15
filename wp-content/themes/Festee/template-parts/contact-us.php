@@ -48,22 +48,22 @@ get_header();
 
                         <div class="address_info py-4 text-lg-left text-md-left">
 
-                            <address>
-                                <i class="fas fa-envelope mr-2"></i>
-                                <a href="mailto: exampletext@example.in" class="np-mail">
-                                    exampletext@example.in </a>
-                            </address>
-                            <address>
-                                <i class="fa-solid fa-phone mr-2"></i>
-                                <a href="tel: +1 23 456 7890" class="np-call">
-                                    +1 23 456 7890 </a>
-                            </address>
-                            <address>
-                                <i class="fas fa-map-marker-alt mr-2"></i>
-                                <a href="#" class="np-address">
-                                    <span>No.49 High street London Us</span>
-                                </a>
-                            </address>
+                           <address>
+                            <i class="fas fa-envelope mr-2"></i>
+                            <a href="mailto:support@festee.com" class="np-mail">
+                                support@festee.com</a>
+                        </address>
+                        <address>
+                            <i class="fa-solid fa-phone mr-2"></i>
+                            <a href="tel: +1 23 456 7890" class="np-call">
+                                +1 23 456 7890 </a>
+                        </address>
+                        <address>
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <a href="#" class="np-address">
+                                <span>No. 49, High Street, London, UK</span>
+                            </a>
+                        </address>
                         </div>
                     </div>
 

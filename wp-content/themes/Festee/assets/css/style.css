@@ -214,6 +214,10 @@ ul.social_media li a {
     color: #fff;
 }
 
+.designe_soluction_s P{ width: 75%; margin: 0 auto; }
+
+.designe_soluction_s .services_home_img P{ width: 100%; padding-bottom: 15px; }
+
 
 .home_service_cnt {
     text-align: left;
@@ -314,6 +318,7 @@ h2 {
     max-width: 100%;
     position: relative;
     width: 100%;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -331,17 +336,20 @@ h2 {
 .feat_content {
     transform: translateY(75%);
     text-align: center;
+    padding: 0px 20px;
 }
 
 .work_info {
     position: relative;
+    overflow: hidden;
     border-radius: 15px;
-    overflow: auto;
 }
 
 .work_info h4 {
     font-size: 25px;
 }
+
+.feat_content p{ font-size: 16px; }
 
 .work_read_btn {
     padding: .5rem 1rem;
@@ -502,15 +510,17 @@ a.learnmore_btn:hover{ background: #fff; color: #0070af; }
 }
 
 .client_review h3 {
-    font-size: 50px;
+    font-size:30px;
     font-style: italic;
 }
 
 .client_review h5 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     padding-top: 7px;
 }
+
+.our_achievement .slick-track{ display: flex; gap:60px; }
 
 .achievement_slider {
     margin-top: 40px;
@@ -664,6 +674,17 @@ body .space_topbottom{ padding: 20px 0px 80px; margin-top: 0px; }
 }
 
 
+@media screen and (max-width:1440px) { 
+
+    .t_shirts_gallery ul li img {
+    max-width: 250px;
+} 
+
+
+}
+
+
+
 @media screen and (max-width:1367px) {
 
 .hero_section h1 { font-size: 48px; }
@@ -671,10 +692,25 @@ body .space_topbottom{ padding: 20px 0px 80px; margin-top: 0px; }
 .hero_section .slider_img{ width: 50%; }
 .banner_cnt{ width: 50%; }
 
+.corporate_gifting_mid_s .row {
+    padding: 60px 20px 0px; }
+
+    .t_shirts_gallery ul li img {
+    max-width: 200px;
+} 
+
+
+
 }
 
 
 @media screen and (max-width:1200px) {
+
+.t_shirts_gallery ul {
+ flex-wrap: wrap; }    
+
+    .corporate_gifting_mid_s .row {
+    padding: 40px 20px 0px; }
 
     body header nav ul li a {
         font-size:15px;
@@ -721,15 +757,41 @@ body .space_topbottom{ padding: 20px 0px 80px; margin-top: 0px; }
         font-size: 24px;
     }
 
+    .blog_outer_page .blog_img {
+    height: 260px;
+}
+
 }
 
 
 @media screen and (max-width:991px) {
 
-    .header_right_bl {
+    .blog_outer_page .blog_img {
+    height: 220px;
+}
 
+    .corporate_gifting_mid_s .row {
+        flex-direction: column;
+    } 
+    
+.corporate_gifting_mid_s .col-sm-6{ width: 100%; } 
+.corprate_gift_cnt{ margin-top: 20px; } 
+.corprate_gift_cnt p {
+    padding-bottom: 10px;
+}  
+
+    .header_right_bl {
         gap: 10px;
     }
+
+    .hero_section h1{ font-size: 30px; }
+     .hero_section p { font-size: 16px; }
+
+    .blog_section {
+    flex-direction: column;
+}
+
+    .f1img_box img{ height: 300px; }
 
     .info_inquery{ padding: 40px; }
     .inquery_info_form .form_input {
@@ -759,11 +821,32 @@ flex-direction: column;
     gap: 10px;
 }
 
+.feat_content {
+    transform: translateY(30%); }
+
 
 }
 
 
 @media screen and (max-width:767px) {
+
+    .t_shirts_gallery {
+    padding: 0px 0px 0px;
+}
+
+.blog_outer_page .blog_section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
+}
+
+    .blog_outer_page .blog_img {
+        height: auto;
+    }
+
+.blog_img img{ height: auto; }    
+
+.feat_content {
+    transform: translateY(10%); }    
 
   .hero_section h1{ font-size: 26px; }  
   a.learnmore_btn{ font-size: 14px; }
@@ -772,10 +855,30 @@ flex-direction: column;
     max-width: 150px;
 }
 
+    .f1img_box img{ height: 100%; }
+
+.signature_interiors_bl h2:after{ left: 80%; width: 50px; }
+
+.designe_soluction_s h2:after {
+    width: 25px;
+    left: 102%; }
+
+.designe_soluction_s P {
+    width: 100%; }    
+
+.designe_soluction_s h2 {
+    margin-right: 0px; } 
+    
+    .designe_soluction_s h2:before {
+    width: 26px;
+    right: 100%; }
+
 .tshirts_s .corprate_gift_cnt { max-width: 100%; }
 .corporate_gifting_mid_s .row {
-    padding: 40px 30px 0px;
+    padding: 40px 20px 0px;
 }
+
+.corprate_gift_cnt{ margin-top: 15px; }
 
 .corprate_gift_cnt p {
     padding-bottom: 15px;
@@ -822,7 +925,7 @@ flex-direction: column;
     }
 
     .client_review h3 {
-        font-size: 30px;
+        font-size: 24px;
         margin: 0px;
     }
 
@@ -914,5 +1017,7 @@ address {
 .banner_cnt{ width: 100%; }
 .hero_section .slider_img{ width: 100%; }
 .hero_section{ padding-top:30px; }
+
+.our_achievement .slick-track{ gap: 20px; }
 
 }

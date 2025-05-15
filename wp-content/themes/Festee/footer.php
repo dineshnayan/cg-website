@@ -13,13 +13,7 @@ if (!is_404()) {
 
                         <h5>About Us</h5>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At volutpat elit est, elit
-                            vestibulum
-                            egestas quam risus. Sit et, auctor augue at mattis enim risus. Egestas augue pharetra,
-                            pharetra
-                            at risus quam sit id aliquet
-
-                        </p>
+                        <p>At Festee, design is more than just how things look — it’s about how they make you feel. We specialize in creating beautiful, functional spaces and meaningful corporate gifting solutions that leave a lasting impact.</p>
 
                     </div>
 
@@ -74,7 +68,7 @@ if (!is_404()) {
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-6">
-                        <p>© 2025 Interior Design Firm Pro , All Rights Reserved</p>
+                        <p>© 2025 Festee , All Rights Reserved</p>
                     </div>
 
                     <div class="col-sm-12 col-md-8 col-lg-6">
