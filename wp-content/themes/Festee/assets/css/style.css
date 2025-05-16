@@ -241,6 +241,32 @@ ul.social_media li a {
     display: block;
 }
 
+.corporate_gifting_mid_s.privacy_policy_cnt {
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+.corporate_gifting_mid_s.privacy_policy_cnt h1 {
+    font-weight: 600;
+    color: #084c70;
+    font-size: 42px;
+    text-align: left;
+    padding-bottom: 24px;
+}
+
+.corporate_gifting_mid_s.privacy_policy_cnt .row {
+    padding: 60px 30px 0px;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.corporate_gifting_mid_s.privacy_policy_cnt h2 {
+    font-size: 30px;
+    justify-content: start;
+    font-weight: 600;
+    color: #084c70;
+}
+.corporate_gifting_mid_s.privacy_policy_cnt h2::after{ display: none; }
 .home_service_cnt h5 {
     font-size: 24px;
 }
@@ -706,8 +732,18 @@ body .space_topbottom{ padding: 20px 0px 80px; margin-top: 0px; }
 
 @media screen and (max-width:1200px) {
 
+.corporate_gifting_mid_s.privacy_policy_cnt .row {
+    padding: 30px 10px 0px;
+    max-width: 100%; }    
+
 .t_shirts_gallery ul {
- flex-wrap: wrap; }    
+ flex-wrap: wrap; } 
+ 
+ .corporate_gifting_mid_s.privacy_policy_cnt h1 {
+    font-size: 32px; }
+
+.corporate_gifting_mid_s.privacy_policy_cnt h2 {
+    font-size: 24px; }    
 
     .corporate_gifting_mid_s .row {
     padding: 40px 20px 0px; }
@@ -829,6 +865,19 @@ flex-direction: column;
 
 
 @media screen and (max-width:767px) {
+
+.corporate_gifting_mid_s.privacy_policy_cnt .row {
+    padding: 30px 0px 0px;
+    max-width: 100%;
+}
+
+.corporate_gifting_mid_s.privacy_policy_cnt h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.corporate_gifting_mid_s.privacy_policy_cnt h2 {
+    font-size: 24px; }
 
     .t_shirts_gallery {
     padding: 0px 0px 0px;

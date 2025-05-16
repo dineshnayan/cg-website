@@ -10,9 +10,10 @@ get_header();
             <div class="row">
                 <div class="col-sm-7">
                     <h1>Let's Talk On Solution.</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution</p>
+                    <p>At Festee, we believe every challenge has a solution waiting to be discovered. Whether you have questions, project ideas,
+                         or need assistance with our services, we are here to listen and help. Reach out to us today and let’s start creating success together.
+
+</p>
                 </div>
             </div>
         </div>
@@ -40,9 +41,9 @@ get_header();
 
                         <div class="project-head text-lg-left text-md-left">
                             <h2 class="project-main-head text-effect">Let’s Design Your Dream Space! </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Maecenas eget egestas nunc, quis gravida quam. Duis placerat, nulla at consequat
-                                hendrerit.
+                            <p>At Festee, we bring your ideas to life with elegant, functional, and timeless design solutions. Whether it's your home, office, or commercial space — we're here to make it beautiful and uniquely yours.
+
+
                             </p>
                         </div>
 
